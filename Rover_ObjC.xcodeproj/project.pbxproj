@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BCDACD32149C1F200688CE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BCDACD22149C1F200688CE4 /* AppDelegate.m */; };
+		3BCDACD92149C1F200688CE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BCDACD72149C1F200688CE4 /* Main.storyboard */; };
+		3BCDACDB2149C1F200688CE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BCDACDA2149C1F200688CE4 /* Assets.xcassets */; };
+		3BCDACDE2149C1F200688CE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BCDACDC2149C1F200688CE4 /* LaunchScreen.storyboard */; };
+		3BCDACE12149C1F200688CE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BCDACE02149C1F200688CE4 /* main.m */; };
+		3BCDACEF2149C41A00688CE4 /* APIKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BCDACEE2149C41A00688CE4 /* APIKey.plist */; };
+		3BCDACF52149C49100688CE4 /* KWERover.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BCDACF42149C49100688CE4 /* KWERover.m */; };
+		3BCDACF82149C4A500688CE4 /* KWEPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BCDACF72149C4A500688CE4 /* KWEPhoto.m */; };
+		3BCDACFB2149C4BB00688CE4 /* KWEDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BCDACFA2149C4BB00688CE4 /* KWEDescription.m */; };
+		3BCDAD47214AD03800688CE4 /* KWEFetchRovers.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BCDAD46214AD03800688CE4 /* KWEFetchRovers.m */; };
+		3BCDAD4A214AF62900688CE4 /* RoverListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCDAD49214AF62900688CE4 /* RoverListTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BCDACCE2149C1F200688CE4 /* Rover_ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rover_ObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BCDACD12149C1F200688CE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BCDACD22149C1F200688CE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3BCDACD82149C1F200688CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BCDACDA2149C1F200688CE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BCDACDD2149C1F200688CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BCDACDF2149C1F200688CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BCDACE02149C1F200688CE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BCDACED2149C38700688CE4 /* APIKey.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = APIKey.md; sourceTree = "<group>"; };
+		3BCDACEE2149C41A00688CE4 /* APIKey.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = APIKey.plist; sourceTree = "<group>"; };
+		3BCDACF32149C49100688CE4 /* KWERover.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWERover.h; sourceTree = "<group>"; };
+		3BCDACF42149C49100688CE4 /* KWERover.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWERover.m; sourceTree = "<group>"; };
+		3BCDACF62149C4A500688CE4 /* KWEPhoto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWEPhoto.h; sourceTree = "<group>"; };
+		3BCDACF72149C4A500688CE4 /* KWEPhoto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWEPhoto.m; sourceTree = "<group>"; };
+		3BCDACF92149C4BB00688CE4 /* KWEDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWEDescription.h; sourceTree = "<group>"; };
+		3BCDACFA2149C4BB00688CE4 /* KWEDescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWEDescription.m; sourceTree = "<group>"; };
+		3BCDAD45214AD03800688CE4 /* KWEFetchRovers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWEFetchRovers.h; sourceTree = "<group>"; };
+		3BCDAD46214AD03800688CE4 /* KWEFetchRovers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWEFetchRovers.m; sourceTree = "<group>"; };
+		3BCDAD48214AF62900688CE4 /* Rover_ObjC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rover_ObjC-Bridging-Header.h"; sourceTree = "<group>"; };
+		3BCDAD49214AF62900688CE4 /* RoverListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverListTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BCDACCB2149C1F200688CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BCDACC52149C1F200688CE4 = {
+			isa = PBXGroup;
+			children = (
+				3BCDACD02149C1F200688CE4 /* Rover_ObjC */,
+				3BCDACCF2149C1F200688CE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BCDACCF2149C1F200688CE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BCDACCE2149C1F200688CE4 /* Rover_ObjC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BCDACD02149C1F200688CE4 /* Rover_ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				3BCDAD44214AD01B00688CE4 /* Networking */,
+				3BCDACEB2149C23300688CE4 /* ViewControllers */,
+				3BCDACEA2149C22900688CE4 /* ModelController */,
+				3BCDACE92149C22200688CE4 /* Models */,
+				3BCDACE82149C21C00688CE4 /* UI */,
+				3BCDACE72149C21300688CE4 /* Resources */,
+			);
+			path = Rover_ObjC;
+			sourceTree = "<group>";
+		};
+		3BCDACE72149C21300688CE4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3BCDACD12149C1F200688CE4 /* AppDelegate.h */,
+				3BCDACD22149C1F200688CE4 /* AppDelegate.m */,
+				3BCDACDA2149C1F200688CE4 /* Assets.xcassets */,
+				3BCDACDC2149C1F200688CE4 /* LaunchScreen.storyboard */,
+				3BCDACDF2149C1F200688CE4 /* Info.plist */,
+				3BCDACEE2149C41A00688CE4 /* APIKey.plist */,
+				3BCDACED2149C38700688CE4 /* APIKey.md */,
+				3BCDACE02149C1F200688CE4 /* main.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3BCDACE82149C21C00688CE4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3BCDACD72149C1F200688CE4 /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		3BCDACE92149C22200688CE4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3BCDACF32149C49100688CE4 /* KWERover.h */,
+				3BCDACF42149C49100688CE4 /* KWERover.m */,
+				3BCDACF62149C4A500688CE4 /* KWEPhoto.h */,
+				3BCDACF72149C4A500688CE4 /* KWEPhoto.m */,
+				3BCDACF92149C4BB00688CE4 /* KWEDescription.h */,
+				3BCDACFA2149C4BB00688CE4 /* KWEDescription.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3BCDACEA2149C22900688CE4 /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelController;
+			sourceTree = "<group>";
+		};
+		3BCDACEB2149C23300688CE4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3BCDAD49214AF62900688CE4 /* RoverListTableViewController.swift */,
+				3BCDAD48214AF62900688CE4 /* Rover_ObjC-Bridging-Header.h */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3BCDAD44214AD01B00688CE4 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				3BCDAD45214AD03800688CE4 /* KWEFetchRovers.h */,
+				3BCDAD46214AD03800688CE4 /* KWEFetchRovers.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BCDACCD2149C1F200688CE4 /* Rover_ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BCDACE42149C1F200688CE4 /* Build configuration list for PBXNativeTarget "Rover_ObjC" */;
+			buildPhases = (
+				3BCDACCA2149C1F200688CE4 /* Sources */,
+				3BCDACCB2149C1F200688CE4 /* Frameworks */,
+				3BCDACCC2149C1F200688CE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rover_ObjC;
+			productName = Rover_ObjC;
+			productReference = 3BCDACCE2149C1F200688CE4 /* Rover_ObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BCDACC62149C1F200688CE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KWE;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Kamil Wrobel";
+				TargetAttributes = {
+					3BCDACCD2149C1F200688CE4 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = 3BCDACC92149C1F200688CE4 /* Build configuration list for PBXProject "Rover_ObjC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BCDACC52149C1F200688CE4;
+			productRefGroup = 3BCDACCF2149C1F200688CE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BCDACCD2149C1F200688CE4 /* Rover_ObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BCDACCC2149C1F200688CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BCDACDE2149C1F200688CE4 /* LaunchScreen.storyboard in Resources */,
+				3BCDACEF2149C41A00688CE4 /* APIKey.plist in Resources */,
+				3BCDACDB2149C1F200688CE4 /* Assets.xcassets in Resources */,
+				3BCDACD92149C1F200688CE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BCDACCA2149C1F200688CE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BCDACF82149C4A500688CE4 /* KWEPhoto.m in Sources */,
+				3BCDACE12149C1F200688CE4 /* main.m in Sources */,
+				3BCDACF52149C49100688CE4 /* KWERover.m in Sources */,
+				3BCDAD47214AD03800688CE4 /* KWEFetchRovers.m in Sources */,
+				3BCDAD4A214AF62900688CE4 /* RoverListTableViewController.swift in Sources */,
+				3BCDACFB2149C4BB00688CE4 /* KWEDescription.m in Sources */,
+				3BCDACD32149C1F200688CE4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3BCDACD72149C1F200688CE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BCDACD82149C1F200688CE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BCDACDC2149C1F200688CE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BCDACDD2149C1F200688CE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BCDACE22149C1F200688CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3BCDACE32149C1F200688CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BCDACE52149C1F200688CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5EAUJPVR66;
+				INFOPLIST_FILE = "$(SRCROOT)/Rover_ObjC/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xwrobelekx.Rover-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rover_ObjC/ViewControllers/Rover_ObjC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BCDACE62149C1F200688CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5EAUJPVR66;
+				INFOPLIST_FILE = "$(SRCROOT)/Rover_ObjC/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xwrobelekx.Rover-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rover_ObjC/ViewControllers/Rover_ObjC-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BCDACC92149C1F200688CE4 /* Build configuration list for PBXProject "Rover_ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BCDACE22149C1F200688CE4 /* Debug */,
+				3BCDACE32149C1F200688CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BCDACE42149C1F200688CE4 /* Build configuration list for PBXNativeTarget "Rover_ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BCDACE52149C1F200688CE4 /* Debug */,
+				3BCDACE62149C1F200688CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BCDACC62149C1F200688CE4 /* Project object */;
+}
